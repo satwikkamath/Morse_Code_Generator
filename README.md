@@ -1,4 +1,4 @@
-# Morse Code Generator using ICs
+# Morse Code Generator for numbers 0 to 9 using ICs
 
 ## Introduction
 This project presents a Morse code generator system built using Arduino Nano, Bluetooth module (HC 05), and various integrated circuits (ICs) including 74147, 7404, 74154, 74LS30A, and 7447. The system allows users to input numbers from 0 to 9 via a Bluetooth serial controller app, which are then converted into Morse code and displayed on a seven-segment display.
@@ -24,7 +24,7 @@ This project presents a Morse code generator system built using Arduino Nano, Bl
 
 5. **Binary to Morse Code Conversion**: The binary output serves as input to the 4 to 16 Decoder (IC 74154), which activates the corresponding NAND gates (IC 74LS30A) and LEDs to indicate Morse code. An LED ON indicates a dot, and an LED OFF indicates a dash.
 
-6. **Display Output**: The result, represented in Morse code, is displayed on the seven-segment display.
+6. **Display Output**: The result in decimal is displayed on the seven-segment display.
 
 ## Example
 For instance, when the user selects the number 1, the output would be "00 111", which translates to Dot Dot Dash Dash Dash.
