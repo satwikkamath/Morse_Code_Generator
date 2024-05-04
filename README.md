@@ -12,6 +12,7 @@ This project presents a Morse code generator system built using Arduino Nano, Bl
 - 8 Input NAND Gate (IC 74LS30A)
 - Seven-Segment Display
 - BCD to Seven-Segment Decoder (IC 7447)
+- 5 LEDs
 
 ## Workflow
 1. **User Input**: The user selects a number from 0 to 9 via the Bluetooth serial controller app.
