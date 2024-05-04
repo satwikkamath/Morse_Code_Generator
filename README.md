@@ -31,3 +31,7 @@ For instance, when the user selects the number 1, the output would be "00 111", 
 
 ## Conclusion
 This Morse code generator system provides an interactive way to convert numbers into Morse code using hardware components and Arduino programming. It serves as an educational tool for learning Morse code and demonstrates the integration of digital electronics with microcontrollers for practical applications.
+
+## Few Snippets
+![morse_code_image](https://github.com/satwikkamath/Morse_Code_Generator/assets/107809929/57ace2fc-d8fa-4827-8104-8ffdffba2a77)
+
